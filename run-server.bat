@@ -6,8 +6,6 @@ echo     JAVA WEB SERVER
 echo ========================================
 echo.
 
-cd /d "%~dp0"
-
 echo Đang khởi động Web Server...
 echo.
 
@@ -18,10 +16,6 @@ if %ERRORLEVEL% NEQ 0 (
     echo ========================================
     echo LỖI: Không thể khởi động server!
     echo ========================================
-    echo.
-    echo Vui lòng đảm bảo:
-    echo 1. Đã compile project trong Eclipse
-    echo 2. File .class đã có trong thư mục bin
     echo.
     pause
 )

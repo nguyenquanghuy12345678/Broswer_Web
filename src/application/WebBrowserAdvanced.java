@@ -41,7 +41,7 @@ import java.util.Optional;
  * 
  * @version 2.0 Premium
  */
-public class WebBrowser extends Application {
+public class WebBrowserAdvanced extends Application {
     
     // UI Components
     private TabPane tabPane;
@@ -143,7 +143,7 @@ public class WebBrowser extends Application {
         MenuItem newWindowItem = new MenuItem("New Window");
         newWindowItem.setOnAction(e -> {
             try {
-                new WebBrowser().start(new Stage());
+                new WebBrowserAdvanced().start(new Stage());
             } catch (Exception ex) {
                 ex.printStackTrace();
             }
