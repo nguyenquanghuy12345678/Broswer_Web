@@ -1,0 +1,56 @@
+/* JavaFX CSS - Styling cho trình duyệt web */
+
+.root {
+    -fx-background-color: #ffffff;
+}
+
+/* Styling cho TextField */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-padding: 8px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4CAF50;
+    -fx-border-width: 2px;
+}
+
+/* Styling cho Button */
+.button {
+    -fx-background-color: #e0e0e0;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-background-radius: 3px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #d0d0d0;
+}
+
+.button:pressed {
+    -fx-background-color: #c0c0c0;
+}
+
+.button:disabled {
+    -fx-opacity: 0.5;
+    -fx-cursor: default;
+}
+
+/* Styling cho ProgressBar */
+.progress-bar {
+    -fx-accent: #4CAF50;
+}
+
+.progress-bar > .track {
+    -fx-background-color: #e0e0e0;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: #4CAF50;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
